@@ -1,0 +1,11 @@
+<ion-view>
+<ion-content>
+<ion-list>
+
+<ion-item class="item item-text-wrap" ng-repeat="sponsor in sponsors | orderBy: 'id'" type="item-text-wrap">
+<a href="{{sponsor.url}}" onclick="window.open(this.href, '_system', 'location=yes');return false;"> <img ng-src="{{sponsor.logo}}"></a>
+</ion-item>
+</ion-list>
+</ion-content>
+</ion-view>
+

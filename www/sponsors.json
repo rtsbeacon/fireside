@@ -1,0 +1,28 @@
+[
+	{
+      "id":12,
+      "logo":"http://songchant.com/outlaw/images/rsl.png",
+      "url":"http://www.rslblog.com/",
+      "Text":"Ryan's Smashing Life"
+},
+	{
+      "id":13,
+      "logo":"http://songchant.com/outlaw/images/mof.png",
+      "url":"http://www.mofdesign.com/",
+      "Text":"Man On Fire Design"
+},
+      
+      {
+      "id":14,
+      "logo":"http://songchant.com/outlaw/images/standingsun.png",
+      "url":"http://www.standingsunwines.com/",
+      "text":"Standing Sun Wines"
+},
+	{
+      "id":20,
+      "logo":"http://songchant.com/outlaw/images/claybrook.png",
+      "url":"",
+      "Text":"Clay Brook Music"
+}
+
+]

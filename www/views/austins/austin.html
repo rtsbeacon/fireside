@@ -1,0 +1,14 @@
+<ion-view>
+  <ion-content>
+    <ion-list>
+ <ion-item class="item-thumbnail-left" ng-repeat="austin in austins | orderBy: 'name'" type="item-text-wrap" href="#/app/austins/{{austin.id}}">
+      <img ng-src="{{austin.thumb}}"> 
+      <span style="font-size: 22px">{{austin.name}}</span><br>
+      <span style="font-size: 14px; color: #b0b0b0">{{austin.day}} - {{austin.time}}<br></span>
+      <span style="font-size: 14px; color: #BA1013">{{austin.stage}}</span>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+

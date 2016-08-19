@@ -1,0 +1,224 @@
+/* Empty. Add your own CSS if you like */
+/* background image on landing page */
+.landing {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80%;
+    height: 246px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.home-background {
+  background: url(http://songchant.com/outlaw/images/splash.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.menu-background {
+  background: url(http://songchant.com/outlaw/images/menu-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+max-width:100%;
+height:auto;
+}
+
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #004080;
+}
+
+/* visited link */
+a:visited {
+    color: #004080;
+}
+
+/* mouse over link */
+a:hover {
+    color: #004080;
+}
+
+/* selected link */
+a:active {
+    color: #004080;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.item .item-content {
+  background-color: transparent !important;
+}
+
+    /*old background-color: #BA1013;*/
+/* changing font in divider */
+.item-divider {
+    background-color: #004080 !important;
+    color: #ffffff !important;
+  font-family: Antonio-Regular;
+    font-weight: 800;
+    font-size: 24px;
+  line-height: 1;
+  max-height: 35px; 
+    text-align:center;
+}
+
+.item-note {
+  float: right;
+  color: #aaa;
+  font-family: Antonio-Regular;
+  font-size: 14px;
+}
+
+.content-artist-detail {
+ font-family: "Antonio-Regular";
+  font-size: 22px;
+  padding: 10px 10px 10px 10px;
+
+}
+/* changing item stuff */
+.item-thumbnail-left,
+.item-thumbnail-left .item-content {
+  padding-top: $item-padding / 2;
+  padding-left: $item-thumbnail-width + $item-thumbnail-margin + $item-padding;
+  min-height: $item-thumbnail-height + ($item-thumbnail-margin * 2);
+  font-family: "Antonio-Regular";
+  font-size: 22px;
+
+ /* > img:first-child,
+  .item-image {
+    position: absolute;
+    top: $item-thumbnail-margin;
+    left: $item-thumbnail-margin;
+    max-width: $item-thumbnail-width;
+    max-height: $item-thumbnail-height;
+    width: 100%;
+  }  */
+}
+
+
+
+
+.menu-content {
+  background-color: rgba(255,255,255,0);
+}
+/*adding new font specs */
+    @font-face {
+        font-family: "Antonio-Regular";
+        src: url("../lib/ionic/fonts/Antonio-Regular-webfont.eot");
+        src: url("../lib/ionic/fonts/Antonio-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+             url("../lib/ionic/fonts/Antonio-Regular-webfont.woff") format("woff"),
+             url("../lib/ionic/fonts/Antonio-Regular-webfont.ttf") format("truetype"),
+             url("../lib/ionic/fonts/Antonio-Regular-webfont.svg#Antonio-Regular") format("svg");
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6,{
+  font-family:Antonio-Regular !important;
+}
+
+.item-thumbnail-right.h2 {
+font-size:100px;
+}
+
+h6 {
+  font-size: 100px;
+}
+
+h2 {
+  font-family: Antonio-Regular;
+  font-size: 24px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px;
+}
+
+
+
+.my-menu {
+background-color: rgba(255,255,255,0);
+}
+
+.my-menu .item, .my-menu .item-content, .my-menu .item-complex{
+background-color: rgba(255,255,255,0);
+color: white;
+border-color: transparent;
+font-family: Antonio-Regular;
+font-size: 22px;
+}
+
+.my-item .item .h2{
+font-family: Antonio-Regular;
+font-size: 18px;
+border-color: transparent;
+}
+
+
+
+/*.scroll-content{
+  background-image:url(../img/cupcakesBG.jpg) !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+*/
+
+/* adding code for sticky dividers */
+/*
+.item-container {
+  margin: 0;
+  min-height: 1px;
+  overflow: hidden;
+  padding: 36px 0 0 0;
+  position: relative;
+    width: 100%;
+    font-family: "Antonio-Regular";
+    font-size: 26px;
+}
+.list-sticky .item-divider {
+  bottom: auto;
+  left: 0;
+  line-height: 20px;
+  min-height: 1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  text-align:center;
+  background-color:#BA1013;
+}
+
+.item-divider.item-hidden {
+  visibility: hidden;
+}
+.item-container.item-animated .item-divider {
+  bottom: 0;
+  top: auto;
+  text-align:center;
+}
+*/

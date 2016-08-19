@@ -1,0 +1,29 @@
+
+
+<ion-view>
+  <ion-content class="content-artist-detail">
+<img src="img/background.jpg" class="responsive-image">
+<span style="font-size: 22px"><br><br>Join the Outlaw Family</span><br><br>
+<span style="font-size: 18px">Sign up for our Email list</span><br><br>
+<form name="mainForm">
+    <div class="list">
+        <label class="item item-input">
+            <input id="firstName" type="text" name="firstName" placeholder="first name" ng-model="data.firstName" required/></label>
+        
+        <label class="item item-input">
+            <input id="lastName" type="text" name="lastName" placeholder="last name" ng-model="data.lastName" required/>
+      </label>
+       <label class="item item-input">
+                      <input id="email" type="email" placeholder="email" ng-model="data.email" required/>
+            </label>
+        <label class="item item-input">
+                <button class="button button-small button-dark" ng-click="submitEmail()">
+                    Submit
+                </button>
+        </label>
+    </div>
+
+</form>
+</ion-content>
+</ion-view> 
+

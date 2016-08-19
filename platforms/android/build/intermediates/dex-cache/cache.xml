@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_18bb98c41dcac866a1b563c08a0bebf8575eb47f.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.2_c81318f4a4937ce2a1adacba46d121c3c3f3cca6.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_d629a2ed1e24eee90f849c38767b21e9499c6952.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.0.2_28a58afd7b8a48f46eec0f1c7c3706bbce6f61fc.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_d7c36aead6d6cc9ebf8cd8f5ece3dcf2ce3aeadc.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/me.leolin-ShortcutBadger-1.1.4_b492e98dbf998455b14a775d928c16977ff730ac.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.2_d69cc55f6b9081926419067fc7fece26214a87df.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_6d5a1ea54bd2bc50b5e7bed1d4a73d954a4e1d64.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a218977fb7c2318011f20b41916668522adda791">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_b386d42a0c71ac16f8f3d561b7636d975f794615.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_df2960e8819266e3d40776e66fa3b32d6e7e83fc.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.4.0_041dfc4789e59884988436fd9ecd08a729d6bca5.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.2_7420d26fd2b0ea3ece657f60353bac589ce5a26f.jar" />
+    </item>
+    <item
+        jar="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="/Users/lnie/IonicPlayground/FireSide/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.0.2_3a633e36ef17a2d5ff359eca4b74d120b3726146.jar" />
+    </item>
+
+</items>

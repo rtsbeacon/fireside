@@ -1,0 +1,36 @@
+<!--
+This template loads for the 'tab.artist-detail' state (app.js)
+'artist' is a $scope variable created in the ArtistsCtrl controller (controllers.js)
+The ArtistsCtrl pulls data from the Artists service (service.js)
+The Artists service returns an array of artist data
+-->
+<!-- I am editing the file just to see where it shows up in git-->
+
+<ion-view>
+  <ion-content class="content-artist-detail" ng-repeat="austin in austins | filter: {id:austin}">
+    <img ng-src="{{austin.image}}" style="padding-top: 10px"><br><br>
+    <span style="font-size: 22px">{{austin.name}}</span><br><br>
+      <span style="font-family: sans-serif; font-size: 16px">{{austin.bio}}<br><br>
+        Visit {{austin.name}}'s <a style="color: #004080" href="{{austin.url}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">site</a> <br><br>
+        Listen to <a style="color: #004080" href="{{austin.mp3}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">{{austin.mp3name}}</a> <br><br>
+        <a class="button button-icon icon ion-social-facebook" href="{{austin.fb}}" onclick="window.open(this.href, '_blank', 'location=yes');return false;"></a><a class="button button-icon icon ion-social-twitter"href="{{austin.twitter}}" onclick="window.open(this.href, '_system', 'location=yes');return false;"></a><br><br><br>
+      
+<!--<div class="button-bar">
+   <a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->
+  	<!--	<a ng-click="$window.open({{artist.url}}, '_system')" class="button button-assertive">Site</a> 
+  		<a ng-href="#" onclick="window.open({{artist.url}}, '__system'" class="button button-assertive icon ion-play"></a> 
+  		<a href="#/app/artists/{{artist.id}+1}" class="button icon-right ion-arrow-right-a button-clear button-dark"></a>  -->
+
+ <!-- </div> -->
+
+
+   
+  </ion-content>
+</ion-view> 
+
+<!--var queryStringValue = ["artistId", artist.id].join("="); // Results in the string "artistId=1234"
+var URL = ["http://someurl.com?", queryStringValue].join(""); // Results in "http://someurl.com?artistId=1234"
+cordova.InAppBrowser.open(URL, "_blank", "location=yes");-->
+
+
+

@@ -3,18 +3,27 @@
       "id":"2",
       "city":"NASHVILLE", 
       "date":"Sep. 15-17, 2016",
+      "icon1":"icon ion-clock",
       "link1":"#app/schedule",
       "text1":"Schedule - by Time",
+      "icon2":"icon ion-flag",
       "link2":"#app/stage",
-      "text2":"by Stage",
+      "text2":"Schedule - by Stage",
+      "icon3":"icon ion-person-stalker",
       "link3":"#app/artists",
       "text3":"Artists",
+      "icon4":"icon ion-wand",
       "link4":"#app/sponsors",
       "text4":"Sponsors",
-      "link5":"#app/news",
-      "text5":"Links",
-      "link6":"#app/austins",
-      "text6":"Outlaw Alumni"
+      "icon5":"icon ion-university",
+      "link5":"#app/austins",
+      "text5":"Outlaw Alumni '15",
+      "icon6":"icon ion-home",
+      "link6":"http://theoutlawroadshow.com",
+      "text6":"Outlawroadshow.com",
+      "icon7":"icon ion-ipod",
+      "link7":"http://theoutlawroadshow.com/outlaw-radio",
+      "text7":"Outlaw Radio Podcasts"
 }
 ]
 

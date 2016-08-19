@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="lib/ionic-platform-web-client/dist/ionic.io.bundle.min.js"></script>
+  <script src="lib/underscore/underscore-min.js"></script>
+  <script src="lib/moment/moment.js"></script>
+  <script src="lib/angular-moment/angular-moment.js"></script>
+  <script src="lib/angular-ios9-uiwebview-patch/angular-ios9-uiwebview-patch.js"></script>
+  <script src="lib/knuth-shuffle/index.js"></script>
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/utils.js"></script>
+      <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+  <!-- Firebase -->
+  
+<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDWMq24YzEx6Z--WD9yrbiv9uaOnUDxz1s",
+    authDomain: "outlaw-71c68.firebaseapp.com",
+    databaseURL: "https://outlaw-71c68.firebaseio.com",
+    storageBucket: "outlaw-71c68.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+
+  <!-- Login -->
+  <script src="views/login/login.js"></script>
+  <!-- Register -->
+  <script src="views/register/register.js"></script>
+  <!-- Forgot -->
+  <script src="views/forgotPassword/forgotPassword.js"></script>
+  <!-- Complete Account -->
+  <script src="views/completeAccount/completeAccount.js"></script>
+  <!-- Home -->
+  <script src="views/home/home.js"></script>
+  <!-- Menu -->
+  <script src="views/menu/menu.js"></script>
+  <!-- News -->
+  <script src="views/news/news.js"></script>
+    <!-- Artists -->
+  <script src="views/artists/artists.js"></script>
+    <!-- Alums -->
+  <script src="views/austins/austins.js"></script>
+    <!-- Artist detail -->
+  <script src="views/artist-detail/artist-detail.js"></script>
+    <!-- Alum deail -->
+  <script src="views/austin-detail/austin-detail.js"></script>
+    <!-- Sponsors -->
+  <script src="views/sponsors/sponsors.js"></script>
+    <!-- Email -->
+  <script src="views/email/email.js"></script>
+  <!-- ngStorage -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+  <!-- ngCordovaOAuth -->
+  <script src="js/ng-cordova-oauth.min.js"></script>
+  <script src="js/sha1.js"></script>
+  <!-- AngularFire -->
+  <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+  
+ <script>
+      function goToPage() {
+        var pageUrl = ["{{artist.url}}"];
+        window.open(pageUrl, '_system');
+      }
+    </script>
+</head>
+
+<body ng-app="App" class="platform-android platform-cordova platform-webview">
+  <ion-nav-bar class="bar-stable">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-nav-view></ion-nav-view>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<ion-view>
+  <ion-content>
+   <ion-list>
+   <div class="item item-divider">Outlaw Alumni</div>
+ <ion-item class="item-thumbnail-left" ng-repeat="austin in austins | orderBy: 'name'" type="item-text-wrap" href="#/app/austins/{{austin.id}}">
+      <img ng-src="{{austin.thumb}}"> 
+      <span style="font-size: 22px">{{austin.name}}</span><br>
+      </ion-item>
+    </ion-list> 
+  </ion-content>
+</ion-view>
+
+

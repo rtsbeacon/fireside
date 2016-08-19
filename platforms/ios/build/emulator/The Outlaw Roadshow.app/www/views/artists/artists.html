@@ -1,0 +1,16 @@
+<ion-view>
+  <ion-content>
+    <ion-list>
+    <div class="item item-divider">Artists</div>
+    <!-- changed order by to 'id' need to change it back to 'name' after telaviv -->
+ <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
+      <img ng-src="{{artist.thumb}}"> 
+      <span style="font-size: 22px">{{artist.name}}</span><br>
+      <span style="font-size: 14px; color: #b0b0b0">{{artist.time}}<br></span>
+      <span style="font-size: 14px; color: #004080">{{artist.stage}}</span>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+

@@ -19,6 +19,19 @@
   <script src="js/utils.js"></script>
       <!-- compiled css output -->
     <link href="css/ionic.app.css" rel="stylesheet">
+  <!-- inappbrowser -->
+  <script>
+            document.onclick = function (e) {
+                e = e ||  window.event;
+                var element = e.target || e.srcElement;
+ 
+                if (element.tagName == 'A') {
+                    window.open(element.href, "_blank", "location=yes");
+                    return false; // prevent default action and stop event propagation
+                }
+            };
+  </script>
+
   <!-- Firebase -->
   
 <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
@@ -67,12 +80,12 @@
   <!-- AngularFire -->
   <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
   
- <script>
+ <!--<script>
       function goToPage() {
         var pageUrl = ["{{artist.url}}"];
         window.open(pageUrl, '_system');
       }
-    </script>
+    </script>-->
 </head>
 
 <body ng-app="App">
